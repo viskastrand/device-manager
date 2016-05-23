@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">Device_Manager</string>
+
+  <string name="lorem_ipsum">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id neque lorem. Nunc vitae lectus porttitor, facilisis nunc id, interdum erat. Sed a sollicitudin mi. Vestibulum mollis nisi vel ex aliquet imperdiet. Curabitur bibendum sapien quis magna commodo, nec finibus ipsum luctus. Suspendisse augue velit, condimentum sed urna in, lacinia placerat arcu. Quisque pharetra turpis vitae orci congue aliquet. Fusce quam massa, tincidunt mollis ornare eu, convallis a quam. Aliquam justo sem, eleifend sit amet euismod blandit, aliquam sed enim. Ut sit amet mauris quis est aliquet vehicula.
+  </string>
+
+  <string name="checkin">Checkin</string>
+  <string name="menu_settings">Settings</string>
+</resources>
