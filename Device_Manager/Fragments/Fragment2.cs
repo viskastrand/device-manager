@@ -36,7 +36,7 @@ namespace Device_Manager {
 
             Button btnCreate = view.FindViewById<Button>(Resource.Id.btnCreate);
 
-            //Subsribing Button click event to function;
+            //Subscribing Button click event to function;
             btnCreate.Click += BtnCreate_Click;
             return view;
         }

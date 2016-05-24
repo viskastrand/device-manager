@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using Android.Content;
 using Android.Views;
 using Android.Widget;
-using System;
 
 namespace Device_Manager {
     class DeviceListAdapter : BaseAdapter<Device> {
