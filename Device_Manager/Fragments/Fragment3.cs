@@ -19,7 +19,6 @@ namespace Device_Manager {
         double mBitcoin;
         double mConvValue;
         //Exchangerate variables
-        string strRate;
         double rate;
 
         public override void OnCreate(Bundle savedInstanceState) {
@@ -49,8 +48,7 @@ namespace Device_Manager {
             Newtonsoft.Json.Linq.JObject jObject = Newtonsoft.Json.Linq.JObject.Parse(reader.ReadLine());
             stream.Close();
             //Extract exangerate data from json
-            strRate = (string)jObject["bpi"]["SEK"]["rate"];
-            rate = Convert.ToDouble(strRate);
+            rate = (double)jObject["bpi"]["SEK"]["rate_float"];
 
             //Subscribing Button click event to function;
             btnConvert.Click += BtnConvert_Click;

@@ -1810,10 +1810,7 @@ namespace Device_Manager
 			public const int Icon = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int Icon2 = 2130837582;
-			
-			// aapt resource value: 0x7f02004f
-			public const int notification_template_icon_bg = 2130837583;
+			public const int notification_template_icon_bg = 2130837582;
 			
 			static Drawable()
 			{
