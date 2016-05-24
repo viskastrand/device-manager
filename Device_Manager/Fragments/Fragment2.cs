@@ -11,7 +11,7 @@ using System.Text;
 using SupportFragment = Android.Support.V4.App.Fragment;
 
 namespace Device_Manager {
-    public class Fragment1 : SupportFragment {
+    public class Fragment2 : SupportFragment {
         //Get InputLayouts from fragment2.axml
         TextInputLayout nameWrapper;
         TextInputLayout ipWrapper1;
@@ -21,13 +21,13 @@ namespace Device_Manager {
 
         public override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
-
-            // Create your fragment here
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+            //Reference Fragment2 view;
             View view = inflater.Inflate(Resource.Layout.Fragment2, container, false);
 
+            //Reference Input fields and button
             nameWrapper = view.FindViewById<TextInputLayout>(Resource.Id.txtInputLayoutDeviceName);
             ipWrapper1 = view.FindViewById<TextInputLayout>(Resource.Id.txtInputLayoutDeviceIp);
             ipWrapper2 = view.FindViewById<TextInputLayout>(Resource.Id.txtInputLayoutDeviceIp2);
@@ -36,22 +36,27 @@ namespace Device_Manager {
 
             Button btnCreate = view.FindViewById<Button>(Resource.Id.btnCreate);
 
+            //Subsribing Button click event to function;
             btnCreate.Click += BtnCreate_Click;
             return view;
         }
 
         private void BtnCreate_Click(object sender, EventArgs e) {
+            //Get all input values
             string txtDeviceName = nameWrapper.EditText.Text;
             string txtIp1 = ipWrapper1.EditText.Text.ToString();
             string txtIp2 = ipWrapper2.EditText.Text.ToString();
             string txtIp3 = ipWrapper3.EditText.Text.ToString();
             string txtIp4 = ipWrapper4.EditText.Text.ToString();
 
+
+            //Check if device name is supplied else cast error;
             if (txtDeviceName == "") {
                 nameWrapper.Error = "You must enter a device name";
                 return;
             }
 
+            //Check if full ip is supplied else default un supplied field to 0
             if (txtIp1 == "")
                 txtIp1 = "0";
             if (txtIp2 == "")
@@ -61,6 +66,7 @@ namespace Device_Manager {
             if (txtIp4 == "")
                 txtIp4 = "0";
 
+            //Combine all ip filds to one formated ip
             string fullIp = txtIp1 + "." + txtIp2 + "." + txtIp3 + "." + txtIp4;
 
             //Creating web client;

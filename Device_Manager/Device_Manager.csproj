@@ -79,9 +79,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Device.cs" />
     <Compile Include="Fragments\Fragment1.cs" />
     <Compile Include="Fragments\Fragment2.cs" />
     <Compile Include="Fragments\Fragment3.cs" />
+    <Compile Include="ListAdapters\DeviceListAdapter.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -108,6 +110,9 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Fragment3.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\device_row.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>

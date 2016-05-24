@@ -63,8 +63,8 @@ namespace Device_Manager {
 
         private void SetUpViewPager(ViewPager viewPager) {
             TabAdapter adapter = new TabAdapter(SupportFragmentManager);
-            adapter.AddFragment(new Fragment2(), "Fragment2");
-            adapter.AddFragment(new Fragment1(), "Create Device");
+            adapter.AddFragment(new Fragment1(), "Fragment2");
+            adapter.AddFragment(new Fragment2(), "Create Device");
             adapter.AddFragment(new Fragment3(), "Fragment 3");
 
             viewPager.Adapter = adapter;

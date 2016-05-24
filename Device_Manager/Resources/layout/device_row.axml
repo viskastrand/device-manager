@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linDeviceLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:weightSum="100"
+    android:background="#F1F1F1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <!--Left Layout-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:layout_width="0dp">
+            <TextView
+                android:id="@+id/txtDeviceName"
+                android:text="Device Name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textSize="20sp" />
+        </LinearLayout>
+    <!--Right Layout-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="40">
+            <TextView
+                android:id="@+id/txtIp"
+                android:text="192.168.1.1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="65"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
