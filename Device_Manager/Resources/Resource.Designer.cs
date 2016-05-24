@@ -1861,8 +1861,8 @@ namespace Device_Manager
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060080
-			public const int action0 = 2131099776;
+			// aapt resource value: 0x7f060086
+			public const int action0 = 2131099782;
 			
 			// aapt resource value: 0x7f06005a
 			public const int action_bar = 2131099738;
@@ -1888,8 +1888,8 @@ namespace Device_Manager
 			// aapt resource value: 0x7f06005b
 			public const int action_context_bar = 2131099739;
 			
-			// aapt resource value: 0x7f060084
-			public const int action_divider = 2131099780;
+			// aapt resource value: 0x7f06008a
+			public const int action_divider = 2131099786;
 			
 			// aapt resource value: 0x7f060003
 			public const int action_menu_divider = 2131099651;
@@ -1915,8 +1915,8 @@ namespace Device_Manager
 			// aapt resource value: 0x7f06001e
 			public const int always = 2131099678;
 			
-			// aapt resource value: 0x7f060078
-			public const int appbar = 2131099768;
+			// aapt resource value: 0x7f06007e
+			public const int appbar = 2131099774;
 			
 			// aapt resource value: 0x7f06001b
 			public const int beginning = 2131099675;
@@ -1924,14 +1924,14 @@ namespace Device_Manager
 			// aapt resource value: 0x7f06002a
 			public const int bottom = 2131099690;
 			
-			// aapt resource value: 0x7f060077
-			public const int btnCreate = 2131099767;
+			// aapt resource value: 0x7f06007d
+			public const int btnCreate = 2131099773;
 			
 			// aapt resource value: 0x7f060044
 			public const int buttonPanel = 2131099716;
 			
-			// aapt resource value: 0x7f060081
-			public const int cancel_action = 2131099777;
+			// aapt resource value: 0x7f060087
+			public const int cancel_action = 2131099783;
 			
 			// aapt resource value: 0x7f06002b
 			public const int center = 2131099691;
@@ -1945,8 +1945,8 @@ namespace Device_Manager
 			// aapt resource value: 0x7f060052
 			public const int checkbox = 2131099730;
 			
-			// aapt resource value: 0x7f060087
-			public const int chronometer = 2131099783;
+			// aapt resource value: 0x7f06008d
+			public const int chronometer = 2131099789;
 			
 			// aapt resource value: 0x7f060033
 			public const int clip_horizontal = 2131099699;
@@ -1990,8 +1990,8 @@ namespace Device_Manager
 			// aapt resource value: 0x7f06000e
 			public const int disableHome = 2131099662;
 			
-			// aapt resource value: 0x7f06007d
-			public const int drawer_layout = 2131099773;
+			// aapt resource value: 0x7f060083
+			public const int drawer_layout = 2131099779;
 			
 			// aapt resource value: 0x7f06005c
 			public const int edit_query = 2131099740;
@@ -1999,8 +1999,8 @@ namespace Device_Manager
 			// aapt resource value: 0x7f06001c
 			public const int end = 2131099676;
 			
-			// aapt resource value: 0x7f06008c
-			public const int end_padder = 2131099788;
+			// aapt resource value: 0x7f060092
+			public const int end_padder = 2131099794;
 			
 			// aapt resource value: 0x7f060023
 			public const int enterAlways = 2131099683;
@@ -2017,8 +2017,8 @@ namespace Device_Manager
 			// aapt resource value: 0x7f060051
 			public const int expanded_menu = 2131099729;
 			
-			// aapt resource value: 0x7f06007c
-			public const int fab = 2131099772;
+			// aapt resource value: 0x7f060082
+			public const int fab = 2131099778;
 			
 			// aapt resource value: 0x7f060035
 			public const int fill = 2131099701;
@@ -2047,11 +2047,11 @@ namespace Device_Manager
 			// aapt resource value: 0x7f06003f
 			public const int image = 2131099711;
 			
-			// aapt resource value: 0x7f06007f
-			public const int imgViewHeader = 2131099775;
+			// aapt resource value: 0x7f060085
+			public const int imgViewHeader = 2131099781;
 			
-			// aapt resource value: 0x7f06008b
-			public const int info = 2131099787;
+			// aapt resource value: 0x7f060091
+			public const int info = 2131099793;
 			
 			// aapt resource value: 0x7f060000
 			public const int item_touch_helper_previous_elevation = 2131099648;
@@ -2059,11 +2059,11 @@ namespace Device_Manager
 			// aapt resource value: 0x7f06002f
 			public const int left = 2131099695;
 			
-			// aapt resource value: 0x7f060085
-			public const int line1 = 2131099781;
+			// aapt resource value: 0x7f06008b
+			public const int line1 = 2131099787;
 			
-			// aapt resource value: 0x7f060089
-			public const int line3 = 2131099785;
+			// aapt resource value: 0x7f06008f
+			public const int line3 = 2131099791;
 			
 			// aapt resource value: 0x7f06000b
 			public const int listMode = 2131099659;
@@ -2071,8 +2071,8 @@ namespace Device_Manager
 			// aapt resource value: 0x7f060041
 			public const int list_item = 2131099713;
 			
-			// aapt resource value: 0x7f060083
-			public const int media_actions = 2131099779;
+			// aapt resource value: 0x7f060089
+			public const int media_actions = 2131099785;
 			
 			// aapt resource value: 0x7f06001d
 			public const int middle = 2131099677;
@@ -2083,20 +2083,20 @@ namespace Device_Manager
 			// aapt resource value: 0x7f060016
 			public const int multiply = 2131099670;
 			
-			// aapt resource value: 0x7f060090
-			public const int nav_discussion = 2131099792;
+			// aapt resource value: 0x7f060096
+			public const int nav_discussion = 2131099798;
 			
-			// aapt resource value: 0x7f06008f
-			public const int nav_friends = 2131099791;
+			// aapt resource value: 0x7f060095
+			public const int nav_friends = 2131099797;
 			
-			// aapt resource value: 0x7f06008d
-			public const int nav_home = 2131099789;
+			// aapt resource value: 0x7f060093
+			public const int nav_home = 2131099795;
 			
-			// aapt resource value: 0x7f06008e
-			public const int nav_messages = 2131099790;
+			// aapt resource value: 0x7f060094
+			public const int nav_messages = 2131099796;
 			
-			// aapt resource value: 0x7f06007e
-			public const int nav_view = 2131099774;
+			// aapt resource value: 0x7f060084
+			public const int nav_view = 2131099780;
 			
 			// aapt resource value: 0x7f06006d
 			public const int navigation_header_container = 2131099757;
@@ -2224,8 +2224,8 @@ namespace Device_Manager
 			// aapt resource value: 0x7f060031
 			public const int start = 2131099697;
 			
-			// aapt resource value: 0x7f060082
-			public const int status_bar_latest_event_content = 2131099778;
+			// aapt resource value: 0x7f060088
+			public const int status_bar_latest_event_content = 2131099784;
 			
 			// aapt resource value: 0x7f060065
 			public const int submit_area = 2131099749;
@@ -2233,20 +2233,20 @@ namespace Device_Manager
 			// aapt resource value: 0x7f06000d
 			public const int tabMode = 2131099661;
 			
-			// aapt resource value: 0x7f06007a
-			public const int tabs = 2131099770;
+			// aapt resource value: 0x7f060080
+			public const int tabs = 2131099776;
 			
-			// aapt resource value: 0x7f06008a
-			public const int text = 2131099786;
+			// aapt resource value: 0x7f060090
+			public const int text = 2131099792;
 			
-			// aapt resource value: 0x7f060088
-			public const int text2 = 2131099784;
+			// aapt resource value: 0x7f06008e
+			public const int text2 = 2131099790;
 			
 			// aapt resource value: 0x7f06004d
 			public const int textSpacerNoButtons = 2131099725;
 			
-			// aapt resource value: 0x7f060086
-			public const int time = 2131099782;
+			// aapt resource value: 0x7f06008c
+			public const int time = 2131099788;
 			
 			// aapt resource value: 0x7f060043
 			public const int title = 2131099715;
@@ -2254,8 +2254,8 @@ namespace Device_Manager
 			// aapt resource value: 0x7f060048
 			public const int title_template = 2131099720;
 			
-			// aapt resource value: 0x7f060079
-			public const int toolBar = 2131099769;
+			// aapt resource value: 0x7f06007f
+			public const int toolBar = 2131099775;
 			
 			// aapt resource value: 0x7f060032
 			public const int top = 2131099698;
@@ -2269,11 +2269,29 @@ namespace Device_Manager
 			// aapt resource value: 0x7f060076
 			public const int txtDeviceIp = 2131099766;
 			
+			// aapt resource value: 0x7f060078
+			public const int txtDeviceIp2 = 2131099768;
+			
+			// aapt resource value: 0x7f06007a
+			public const int txtDeviceIp3 = 2131099770;
+			
+			// aapt resource value: 0x7f06007c
+			public const int txtDeviceIp4 = 2131099772;
+			
 			// aapt resource value: 0x7f060074
 			public const int txtDeviceName = 2131099764;
 			
 			// aapt resource value: 0x7f060075
 			public const int txtInputLayoutDeviceIp = 2131099765;
+			
+			// aapt resource value: 0x7f060077
+			public const int txtInputLayoutDeviceIp2 = 2131099767;
+			
+			// aapt resource value: 0x7f060079
+			public const int txtInputLayoutDeviceIp3 = 2131099769;
+			
+			// aapt resource value: 0x7f06007b
+			public const int txtInputLayoutDeviceIp4 = 2131099771;
 			
 			// aapt resource value: 0x7f060073
 			public const int txtInputLayoutDeviceName = 2131099763;
@@ -2287,8 +2305,8 @@ namespace Device_Manager
 			// aapt resource value: 0x7f06000a
 			public const int view_offset_helper = 2131099658;
 			
-			// aapt resource value: 0x7f06007b
-			public const int viewpager = 2131099771;
+			// aapt resource value: 0x7f060081
+			public const int viewpager = 2131099777;
 			
 			// aapt resource value: 0x7f060022
 			public const int withText = 2131099682;

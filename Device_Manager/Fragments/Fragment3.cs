@@ -10,9 +10,11 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using SupportFragment = Android.Support.V4.App.Fragment;
 
-namespace Device_Manager.Fragments {
-    public class Fragment3 : Fragment {
+
+namespace Device_Manager {
+    public class Fragment3 : SupportFragment {
         public override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
 
@@ -20,10 +22,8 @@ namespace Device_Manager.Fragments {
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-            // Use this to return your custom view for this Fragment
-            // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
-
-            return base.OnCreateView(inflater, container, savedInstanceState);
+            View view = inflater.Inflate(Resource.Layout.Fragment3, container, false);
+            return view;
         }
     }
 }
